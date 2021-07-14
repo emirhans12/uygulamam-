@@ -1,0 +1,16 @@
+  Console.WriteLine("Yıldızlar İle Piramit Yapımı");
+
+            for (int i = 0; i < 20; i++) // 20 adet satır ve sütün oluşması için 
+            {
+                for (int k = i; k < 20; k++) // soldaki boşluklar için 
+                {
+                    Console.Write(" ");
+                }
+                for (int x = 0; x <= i; x++)
+                {
+                    Console.Write("*"); // üçgenimizdeki yıldız şekilleri için 
+                    Console.Write(" ");
+                }
+                Console.WriteLine();
+            }
+            Console.Read();
